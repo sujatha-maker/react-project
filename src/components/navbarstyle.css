@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css?family=popping");
+import * {
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+.topPage {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.topPage .nav-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Poppins", Arial, sans-serif;
+  background: #fff;
+  font-size: 17px;
+  line-height: 2;
+  font-weight: 400;
+  color: #666666;
+  background: transparent !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 10px;
+  gap: 50px;
+}
+.topPage .nav-header .nav-tab {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  font-size: 14px;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 600;
+  color: #fff;
+  opacity: 1 !important;
+  background-color: transparent;
+}
+.topPage .nav-header .booking {
+  background: #c8a97e;
+  color: white;
+  border-radius: 5px;
+  font-size: 14px;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 400;
+  color: #fff;
+  border: none;
+  opacity: 1 !important;
+}
+.topPage .nav-header .logo {
+  font-weight: 900;
+  font-size: 20px;
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+  text-decoration: none;
+  background-color: transparent;
+  color: #fff;
+}
+.topPage .top {
+  top: 15px;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  background: rgba(255, 255, 255, 0.05) !important;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  line-height: 2;
+  font-weight: 500;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  gap: 80px;
+  align-items: center;
+  justify-content: space-around;
+}/*# sourceMappingURL=navbarstyle.css.map */

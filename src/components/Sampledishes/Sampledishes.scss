@@ -1,0 +1,43 @@
+.mainitem{
+
+    display: flex;
+    position: absolute;
+    width: 100%;
+    top: 600px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+
+.item1{
+
+    
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-family: "Poppins", Arial, sans-serif;
+ 
+    font-size: 17px;
+    line-height: 2;
+    font-weight: 400;
+    color: #666666;
+
+
+   .menu-img{
+
+background-image: url("../Images/breakfast-1.jpg");
+width: 90px;
+height: 90px;
+margin-bottom: 10px;
+border-radius: 50%;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+
+
+
+   }
+}
+
+}
