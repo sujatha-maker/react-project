@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=popping");
+.main_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex: 0 0 20%;
+  text-align: left;
+}
+.main_container .each_chef_box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: first baseline;
+  text-align: left;
+  gap: 10px;
+}
+.main_container .each_chef_box .chef_image {
+  width: 100%;
+}
+.main_container .each_chef_box .chef_image img {
+  width: 100%;
+}
+.main_container .each_chef_box p {
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 2;
+  font-weight: 400;
+  color: #666666;
+  text-align: left;
+}
+.main_container .each_chef_box .faded1 {
+  margin-left: 0px;
+}
+.main_container .each_chef_box .faded1 .mainIcon {
+  list-style: none;
+  justify-content: first baseline;
+  display: flex;
+  margin-left: 0px;
+  gap: 5px;
+  color: #c8a97e;
+}/*# sourceMappingURL=ChefProps.css.map */

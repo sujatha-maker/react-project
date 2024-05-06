@@ -1,0 +1,15 @@
+* {
+  font-family: "Poppins", Arial, sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.mainchief {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  flex-wrap: wrap;
+  gap: 20px;
+}/*# sourceMappingURL=Mainchief.css.map */

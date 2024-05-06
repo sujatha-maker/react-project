@@ -6,7 +6,7 @@ return(
 
 <div className="mainitem">
 <div className="item1">
-<div class="menu-img im"></div>
+<div class="menu-img"></div>
 <div class="text-center">
 <h3>Grilled Beef with potatoes</h3>
 <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
@@ -14,7 +14,7 @@ return(
 
 </div>
 <div className="item2">
-<div class="menu-img im"></div>
+<div class="menu-img"></div>
 <div class="text-center">
 <h3>Grilled Beef with potatoes</h3>
 <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>

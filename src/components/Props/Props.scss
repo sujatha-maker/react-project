@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css?family=popping');
+.cake_container{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    // border: 2px solid green;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 25%;
+    // gap: 10px;
+  
+ 
+  
+    // flex-direction: co;
+    .each_cake_box{
+    width: 100%;
+    max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+    //  margin: 20px;
+
+     .flaticon-cake{
+width: 60px;
+img{
+    width: 100%;
+}
+
+     }
+     p{
+        font-family: "Poppins", Arial, sans-serif;
+               font-size: 17px;
+        line-height: 2;
+        font-weight: 400;
+        color: #666666;
+       text-align: center;
+     }
+     }
+
+}
