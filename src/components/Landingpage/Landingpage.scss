@@ -1,18 +1,17 @@
-
-    .main{
-        position: relative;
-    // background-image: url("../Images/bg_2.jpg");
+.main {
+    position: relative;
+    background-image: url("../Images/bg_2.jpg");
     width: 100%;
-height: 100vh;    
+    height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 7;
     z-index: 0;
     margin: 0;
     box-sizing: border-box;
-    
-    
-    .background{
+
+
+    .background {
         width: 100%;
         height: 100vh;
         position: absolute;
@@ -20,10 +19,5 @@ height: 100vh;
         background-color: #000000;
         opacity: .7;
     }
-       
-    }
 
-  
-
-    
-
+}

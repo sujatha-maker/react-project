@@ -6,8 +6,8 @@ function Main(){
 
 
 <div className="maintext">
-    <div className="subheading">Feliciano</div>
-    <div className="heading">NUTRITIOUS & TASTY</div>
+    <div className="mainsubheading">Feliciano</div>
+    <div className="mainheading">NUTRITIOUS & TASTY</div>
         
     </div>
  

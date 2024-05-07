@@ -14,35 +14,40 @@ import Speciality from "./components/Speciality/Speciality.jsx";
 import Slideshow from "./components/Slider/Slider.jsx";
 // import logo from './logo.svg';
 import Mainchief from "./components/Mainchief/Mainchief.jsx";
+import Bookingbanner from "./components/Bookingbanner/Bookingbanner.jsx";
+import Booking from "./components/Booking/Booking.jsx";
 import './App.css';
 function App() {
   const datas = "this is heading"
   return (
     <div className="App">
-      
-      
-           <Landingpage/>
-           <Maincontent/>
-     <Header/>
-     <Dishes/>
-     <Page2/>
-     <Timer/>
-     <Page3 name="Services" services="Catering Services"/>
-     
-     
-     <Mainprops/>
-   <Speciality/>
-   <Page3 name="Chef" services="Our Master chef"/>
-   <Mainchief/>
-   
-   <Slideshow/>
 
-   {/* <Card heading="heading" img={checkImg} para="fsjdafkljsdal;kfjskldafj;sklajdfklasjdfkljsdalkfsjda" btnName="click here" btnColor="red"/> */}
-    
-     
 
-     
-    
+      <Landingpage />
+      <Maincontent />
+      <Header />
+      <Dishes />
+      <Page2 />
+      <Timer />
+      <Page3 name="Services" services="Catering Services" />
+
+
+      <Mainprops />
+      <Speciality />
+      <Page3 name="Chef" services="Our Master chef" />
+      <Mainchief />
+      <Bookingbanner />
+      <Booking />
+
+
+
+
+      {/* <Card heading="heading" img={checkImg} para="fsjdafkljsdal;kfjskldafj;sklajdfklasjdfkljsdalkfsjda" btnName="click here" btnColor="red"/> */}
+
+
+
+
+
 
     </div>
   );

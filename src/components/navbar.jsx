@@ -21,7 +21,7 @@ function Header(){
                 <li>Menu</li>
                 <li>Stories</li>
                 <li>Contact</li>
-                <li> <button className="booking">Book a table</button></li>
+                <li> <button className="booking1">Book a table</button></li>
             </ul>
            
         </div>

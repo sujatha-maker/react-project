@@ -1,36 +1,32 @@
-@import url("https://fonts.googleapis.com/css?family=popping");
 * {
   margin: 0;
   box-sizing: border-box;
   font-family: "Poppins", Arial, sans-serif;
-}
-
-.page3 {
-  padding: 7em;
-}
-.page3 .container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
   font-size: 17px;
   line-height: 2;
   font-weight: 400;
   color: #666666;
 }
-.page3 .container .row {
+
+.booking {
   display: flex;
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
-  justify-content: center;
-  align-items: center;
+  position: absolute;
 }
-.page3 .container .row .column {
+.booking .table {
+  width: 100%;
+  padding: 3rem;
   position: relative;
+  flex: 30%;
+  background-color: cyan;
 }
-.page3 .container .row .column .propssubheading {
+.booking .table .heading-section1 {
+  position: relative;
+  text-align: center !important;
+}
+.booking .table .heading-section1 .subheading1 {
   position: absolute;
   top: -50px;
   left: 0;
@@ -39,19 +35,25 @@
   font-size: 100px;
   display: block;
   margin-bottom: 0;
-  color: rgba(0, 0, 0, 0.2);
   color: #c8a97e;
   line-height: 1;
   font-family: "Great Vibes", cursive;
-  margin-top: 0px;
+  margin-top: 0;
   z-index: -1;
-  text-align: center;
+  text-align: center !important;
 }
-.page3 .container .row .column .propsmainheading {
+.booking .table .heading-section1 .mb-4 {
   font-size: 50px;
   font-weight: 900;
   line-height: 1.2;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem !important;
   color: #333333;
-  text-align: center;
-}/*# sourceMappingURL=Page3.css.map */
+  margin-top: 0;
+}
+.booking .table .row4 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  flex: 50%;
+}/*# sourceMappingURL=Booking.css.map */

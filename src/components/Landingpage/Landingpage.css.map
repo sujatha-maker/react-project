@@ -1,1 +1,1 @@
-{"version":3,"sources":["Landingpage.scss","Landingpage.css"],"names":[],"mappings":"AACI;EACI,kBAAA;EAEJ,WAAA;EACJ,aAAA;EACI,sBAAA;EACA,4BAAA;EACA,UAAA;EACA,UAAA;EACA,SAAA;EACA,sBAAA;ACDJ;ADII;EACI,WAAA;EACA,aAAA;EACA,kBAAA;EAEA,yBAAA;EACA,YAAA;ACHR","file":"Landingpage.css"}
+{"version":3,"sources":["Landingpage.scss","Landingpage.css"],"names":[],"mappings":"AAAA;EACI,kBAAA;EACA,2CAAA;EACA,WAAA;EACA,aAAA;EACA,sBAAA;EACA,4BAAA;EACA,UAAA;EACA,UAAA;EACA,SAAA;EACA,sBAAA;ACCJ;ADEI;EACI,WAAA;EACA,aAAA;EACA,kBAAA;EAEA,yBAAA;EACA,YAAA;ACDR","file":"Landingpage.css"}

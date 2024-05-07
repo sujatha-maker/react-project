@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=popping');
 
-*{
+* {
     margin: 0;
     box-sizing: border-box;
-   font-family: "Poppins", Arial, sans-serif;;
+    font-family: "Poppins", Arial, sans-serif;
+    ;
 }
-.page3{
+
+.page3 {
 
     padding: 7em;
-    .container{
+
+    .container {
         width: 100%;
         padding-right: 15px;
         padding-left: 15px;
@@ -18,46 +21,47 @@
         line-height: 2;
         font-weight: 400;
         color: #666666;
-        .row{
-    
+
+        .row {
+
             display: flex;
-        flex-wrap: wrap;
+            flex-wrap: wrap;
             margin-right: -15px;
             margin-left: -15px;
             justify-content: center;
             align-items: center;
-    
-            .column{
+
+            .column {
                 position: relative;
-    
-                .subheading{
-    
+
+                .propssubheading {
+
                     position: absolute;
                     top: -50px;
-        left: 0;
-        right: 0;
-        font-weight: normal;
-        font-size: 100px;
-        display: block;
-        margin-bottom: 0;
-        color: rgba(0, 0, 0, 0.2);
-        color: #c8a97e;
-        line-height: 1;
-        font-family: "Great Vibes", cursive;
-        margin-top: 0px;
-        z-index: -1;
-        text-align: center;
+                    left: 0;
+                    right: 0;
+                    font-weight: normal;
+                    font-size: 100px;
+                    display: block;
+                    margin-bottom: 0;
+                    color: rgba(0, 0, 0, 0.2);
+                    color: #c8a97e;
+                    line-height: 1;
+                    font-family: "Great Vibes", cursive;
+                    margin-top: 0px;
+                    z-index: -1;
+                    text-align: center;
                 }
-                .mainheading{
+
+                .propsmainheading {
                     font-size: 50px;
                     font-weight: 900;
                     line-height: 1.2;
-                    margin-bottom: 1.5rem ;
-                    color: #333333; 
-                    text-align: center; 
+                    margin-bottom: 1.5rem;
+                    color: #333333;
+                    text-align: center;
                 }
             }
         }
     }
 }
-

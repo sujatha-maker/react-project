@@ -8,8 +8,8 @@ function Page3(props){
 <div class="container">
 <div class="row">
 <div class="column">
-<span class="subheading">{props.name}</span>
-<h2 class="mainheading">{props.services}</h2>
+<span class="propssubheading">{props.name}</span>
+<h2 class="propsmainheading">{props.services}</h2>
 </div>
 </div>
 

@@ -5,7 +5,7 @@
   width: 100%;
   top: 300px;
 }
-.maintext .subheading {
+.maintext .mainsubheading {
   font-size: 80px;
   color: #c8a97e;
   font-weight: normal;
@@ -14,7 +14,7 @@
   line-height: 1;
   text-align: center;
 }
-.maintext .heading {
+.maintext .mainheading {
   font-size: 60px;
   color: #fff;
   line-height: 1.5;
